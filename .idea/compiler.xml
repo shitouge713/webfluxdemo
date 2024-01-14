@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exception" />
+        <module name="mongo" />
+        <module name="route" />
+        <module name="websocket" />
+        <module name="mysql" />
+        <module name="webfilter" />
+        <module name="redis" />
+        <module name="multipartAndstream" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="exception" options="-parameters" />
+      <module name="mongo" options="-parameters" />
+      <module name="multipartAndstream" options="-parameters" />
+      <module name="mysql" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="route" options="-parameters" />
+      <module name="webfilter" options="-parameters" />
+      <module name="websocket" options="-parameters" />
+    </option>
+  </component>
+</project>
